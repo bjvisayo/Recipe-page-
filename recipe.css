@@ -1,0 +1,101 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.pagecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    height: auto;
+    max-width: 120vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.omelette {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.recipe {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-top: 0;
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+h1 {
+    font-family: 'Young Serif' , serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ol {
+    padding-left: 1.3rem;    
+}
+
+ul {
+    padding-left: 1.3rem;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif' , serif;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'outfit' , sans-serif;
+}
+
+.styled-list li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+
+}
+
+.bullet-list li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+th, td {
+    border-bottom:  1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.instructions {
+    border-bottom: 1px solid #ccc;
+}
+
+.ingredients {
+    border-bottom: 1px solid #ccc;
+}
+
+td {
+    color: hsl(14, 45%, 36%);
+}
